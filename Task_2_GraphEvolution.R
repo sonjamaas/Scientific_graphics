@@ -1,4 +1,4 @@
-setwd("C:/Users/sonja/OneDrive/Dokumente/EAGLE_Msc/Semester2/Scientific_graphs")
+setwd("C:/Users/sonja/Documents/Dokumente/Studium/Master/scientific_graphics")
 emperors <- read.csv("emperors.csv")
 
 library(ggplot2)
@@ -124,14 +124,14 @@ install.packages("camcorder")
 library(camcorder)
 
 gg_record(
-  dir = file.path("C:/Users/sonja/OneDrive/Dokumente/EAGLE_Msc/Semester2/Scientific_graphs", "recording"),
+  dir = file.path("C:/Users/sonja/Documents/Dokumente/Studium/Master/scientific_graphics", "recording"),
   device = "png", # we need to set the Cairo device
   width = 8,
   height = 5
 )
 
 gg_playback(
-  name = file.path("C:/Users/sonja/OneDrive/Dokumente/EAGLE_Msc/Semester2/Scientific_graphs", "recording", "RomanEmperorsAge.gif"),
+  name = file.path("C:/Users/sonja/Documents/Dokumente/Studium/Master/scientific_graphics", "recording", "RomanEmperorsAge.gif"),
   first_image_duration = 4,
   last_image_duration = 12,
   frame_duration = .5,
