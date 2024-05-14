@@ -67,4 +67,5 @@ ggplot(df, aes(BaSemester,
   labs(y = "Motivation",
        x = "BA Semester")+
   scale_color_manual(values = wes_palette(n = 5,
-                                          name = "Royal2"))
+                                          name = "Royal2"))+
+  ggtitle("Bump Graph of the Motivation of Bachelor Students from Semester 1 to 6")
