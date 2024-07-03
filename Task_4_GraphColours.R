@@ -7,7 +7,7 @@ View(msleep)
 normalScale <- ggplot(msleep, aes(x = bodywt, y = sleep_total))+
   geom_point(aes(colour = vore),
              size = 2)+
-  xlab("Bodyweight in kg (log scale)")+
+  xlab("Bodyweight in kg")+
   ylab("Total amount of sleep in h/day")+
   ggtitle("Sleeping hours of mammals")
 
